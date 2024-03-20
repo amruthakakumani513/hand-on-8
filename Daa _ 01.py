@@ -28,5 +28,5 @@ def ith_order_statistic(array, i):
     return quickselect(array, 0, len(array) - 1, i)
 
 array = [7,2,8,3,12,9,20,17,26,19]
-i = 5
+i = 4
 print(f"The {i}th order statistic of {array} is: {ith_order_statistic(array, i)}")
